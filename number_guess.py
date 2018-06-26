@@ -1,10 +1,11 @@
+#number_guesser.py
 import random
 
 random_num = random.randint(0, 100)
 
 #print(user_guess, type(user_guess))
 #print(guess, type(guess))
-guess = -1 #se
+guess = -1 #set the guess to a non-reachable value for the random int
 
 player_name = input('Enter your name: ')
 
